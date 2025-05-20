@@ -3,10 +3,9 @@ import PhotoCard from './PhotoCard';
 import photoMeta from '../data/photos.json';
 
 const PhotoAlbum: React.FC = () => {
-  const images = import.meta.glob('../photos/*.JPG', { eager: true }) as Record<
-    string,
-    { default: string }
-  >;
+  const images = import.meta.glob('../photos/*.{JPG,jpeg}', {
+    eager: true,
+  }) as Record<string, { default: string }>;
 
   const photoList = photoMeta.map((meta) => {
     // Find the image URL matching the filename
