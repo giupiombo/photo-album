@@ -34,8 +34,8 @@ const ThemeToggle: React.FC = () => {
           className={`w-7 h-7 flex items-center justify-center rounded-full shadow-md transform transition-all duration-300
           ${
             isDark
-              ? 'translate-x-7 bg-yellow-400 text-black'
-              : 'translate-x-0 bg-white text-yellow-500'
+              ? 'translate-x-7 bg-pinkColor text-black'
+              : 'translate-x-0 bg-white text-pinkColor'
           }`}
         >
           {isDark ? <LuSun size={18} /> : <LuMoon size={18} />}
