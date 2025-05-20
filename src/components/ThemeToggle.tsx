@@ -1,14 +1,26 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { LuSun, LuMoon } from 'react-icons/lu';
 
 const ThemeToggle: React.FC = () => {
-  const [isDark, setIsDark] = useState(
-    document.documentElement.classList.contains('dark')
-  );
+  const [isDark, setIsDark] = useState(false);
+
+  // Load theme from localStorage on initial mount
+  useEffect(() => {
+    const storedTheme = localStorage.getItem('theme');
+    const prefersDark =
+      storedTheme === 'dark' ||
+      (!storedTheme &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+    document.documentElement.classList.toggle('dark', prefersDark);
+    setIsDark(prefersDark);
+  }, []);
 
   const toggleDark = () => {
-    document.documentElement.classList.toggle('dark');
-    setIsDark((prev) => !prev);
+    const newTheme = isDark ? 'light' : 'dark';
+    localStorage.setItem('theme', newTheme);
+    document.documentElement.classList.toggle('dark', newTheme === 'dark');
+    setIsDark(newTheme === 'dark');
   };
 
   return (
