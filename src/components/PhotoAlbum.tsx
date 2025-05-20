@@ -38,6 +38,9 @@ const PhotoAlbum: React.FC = () => {
           </div>
         ))}
       </div>
+      <p className="text-sm mt-20 mb-6 tracking-wider text-center">
+        © Copyright {new Date().getFullYear()}. Made by Giulia Piombo.
+      </p>
     </div>
   );
 };
