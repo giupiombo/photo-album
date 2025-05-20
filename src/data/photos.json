@@ -1,27 +1,17 @@
 [
   {
-    "filename": "biosphere.JPG",
-    "title": "Biosphere",
+    "filename": "frames.jpeg",
+    "title": "A r t .",
+    "date": "April 2025"
+  },
+  {
+    "filename": "stella-1.JPG",
+    "title": "Stella 🤍",
     "date": "February 2025"
   },
   {
-    "filename": "antena.jpeg",
-    "title": "Mont-Tremblant",
-    "date": "February 2025"
-  },
-  {
-    "filename": "hot-chocolate.JPG",
-    "title": "-13°C",
-    "date": "February 2025"
-  },
-  {
-    "filename": "jean-drepeau.JPG",
-    "title": "Parc Jean-Drepeau",
-    "date": "February 2025"
-  },
-  {
-    "filename": "mcgill.JPG",
-    "title": "McGill University",
+    "filename": "montreal-fly.jpeg",
+    "title": "Montreal from the sky.",
     "date": "February 2025"
   },
   {
@@ -40,8 +30,38 @@
     "date": "February 2025"
   },
   {
-    "filename": "montreal-fly.jpeg",
-    "title": "Montreal from the sky.",
+    "filename": "mont-tremblant-mountain.jpeg",
+    "title": "Mont-Tremblant",
+    "date": "February 2025"
+  },
+  {
+    "filename": "antena.jpeg",
+    "title": "Mont-Tremblant",
+    "date": "February 2025"
+  },
+  {
+    "filename": "hot-chocolate.JPG",
+    "title": "-13°C",
+    "date": "February 2025"
+  },
+  {
+    "filename": "biosphere.JPG",
+    "title": "Biosphere",
+    "date": "February 2025"
+  },
+  {
+    "filename": "jean-drepeau.JPG",
+    "title": "Parc Jean-Drepeau",
+    "date": "February 2025"
+  },
+  {
+    "filename": "mcgill.JPG",
+    "title": "McGill University",
+    "date": "February 2025"
+  },
+  {
+    "filename": "basilica.JPG",
+    "title": "Marie Reine du Monde Basilica",
     "date": "February 2025"
   },
   {
@@ -65,18 +85,38 @@
     "date": "February 2025"
   },
   {
-    "filename": "basilica.JPG",
-    "title": "Marie Reine du Monde Basilica",
-    "date": "February 2025"
+    "filename": "giraffe.jpeg",
+    "title": "Wildlife Ranch",
+    "date": "December 2024"
   },
   {
-    "filename": "stella-1.JPG",
-    "title": "Stella 🤍",
-    "date": "February 2025"
+    "filename": "giraffe-close.jpeg",
+    "title": "Giraffe",
+    "date": "December 2024"
   },
   {
-    "filename": "frames.jpeg",
-    "title": "A r t .",
-    "date": "April 2025"
+    "filename": "nasa.jpeg",
+    "title": "Nasa",
+    "date": "October 2024"
+  },
+  {
+    "filename": "foz-do-iguacu.jpeg",
+    "title": "Foz do Iguaçu",
+    "date": "December 2023"
+  },
+  {
+    "filename": "green-bird.jpeg",
+    "title": "Parrots",
+    "date": "December 2023"
+  },
+  {
+    "filename": "stella-2.jpeg",
+    "title": "Stella",
+    "date": "November 2023"
+  },
+  {
+    "filename": "seattle.jpeg",
+    "title": "Olympic National Park",
+    "date": "July 2022"
   }
 ]
