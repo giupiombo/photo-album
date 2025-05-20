@@ -24,7 +24,7 @@ const ThemeToggle: React.FC = () => {
   };
 
   return (
-    <div className="absolute top-4 right-20 z-50">
+    <div className="absolute top-4 right-4 sm:right-10 lg:right-20 z-50">
       <button
         onClick={toggleDark}
         className="w-16 h-9 flex items-center px-1 bg-lightBgSecondary dark:bg-darkBgSecondary rounded-full transition-colors duration-300"
