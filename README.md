@@ -1,6 +1,6 @@
 # GeoLens
 
-This website is a photo album to show case some of the pictures taken by me.
+This website is a photo album to showcase some of the pictures taken by me.
 
 Visit the website: [https://giupiombo-photo-album](https://giupiombo-photo-album.vercel.app)
 
